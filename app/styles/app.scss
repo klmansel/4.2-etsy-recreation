@@ -1,0 +1,89 @@
+$red: #d00;
+$menugreen: #9fbb43;
+$darkgray: #5a5b60;
+$menugray: #e4e4e4;
+$black: #000;
+$lightgray: #a9b0be;
+$white: #fff;
+$numbergray: #434449;
+$teal: #64a6c3;
+
+
+// Bootstrap Variables
+$icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
+
+// Import Bootstrap
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+//Top Row
+.wrapper {
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+}
+
+.logo {
+  float: left;
+  height: 100px;
+  margin: 0 auto;
+  padding: 0 auto;
+  width: 200px;
+}
+
+.top-bar {
+  span {
+    background-color: $teal;
+    color: $white;
+    display: inline-block;
+    font-family: 'Arial','sans-serif';
+    font-size: 16px;
+    font-weight: bold;
+    height: 37px;
+    margin-top: 45px;
+    padding: 0 auto;
+    text-align: center;
+    width: 83px;
+  }
+
+}
+
+.site-nav {
+  color: $teal;
+  font-size: 14px;
+  margin-top: 25px;
+  padding: 0 auto;
+
+
+  img {
+    height: 30px;
+    width: 30px;
+  }
+}
+
+.search-box {
+  border: 1px solid $lightgray;
+  box-shadow: 1px .5px 1px $darkgray;
+  color: $lightgray;
+  float: left;
+  font-size: 16px;
+  height: 36px;
+  margin-top: 45px;
+  width: 250px;
+}
+
+//Top Nav Bar
+.navigation-bar>li {
+  display: inline-block;
+  float: left;
+  text-decoration: none;
+}
