@@ -5813,9 +5813,16 @@ img {
   margin-top: 45px;
   width: 250px; }
 
-.navigation-bar > li {
-  display: inline-block;
-  float: left;
+.navigation-bar {
+  margin-left: 25px; }
+
+.navigation-bar > a {
+  color: #a9b0be;
+  margin-left: 20px;
   text-decoration: none; }
+  .navigation-bar > a:hover {
+    border-bottom: 3px solid #d86300;
+    color: #000;
+    content: ''; }
 
 /*# sourceMappingURL=app.css.map */
