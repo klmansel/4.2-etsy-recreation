@@ -7,6 +7,7 @@ $lightgray: #a9b0be;
 $white: #fff;
 $numbergray: #434449;
 $teal: #64a6c3;
+$etsyorange: #d86300;
 
 
 // Bootstrap Variables
@@ -82,8 +83,23 @@ img {
 }
 
 //Top Nav Bar
-.navigation-bar>li {
-  display: inline-block;
-  float: left;
-  text-decoration: none;
+.navigation-bar {
+  margin-left: 25px;
 }
+
+.navigation-bar>a {
+  color: $lightgray;
+  margin-left: 20px;
+  text-decoration: none;
+
+  &:hover {
+    border-bottom: 3px solid $etsyorange;
+    color: $black;
+    content: '';
+
+  }
+}
+
+//Main Content
+
+//Sidebar
