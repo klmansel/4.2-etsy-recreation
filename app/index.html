@@ -37,35 +37,50 @@
               <a href="#">Vintage</a>
             </div>
           </div>
-        <div class="row">
+
+        <div class="container main-content">
+            <h4>Show results for:</h4>
+        <div class="row sidebar-heading">
           <aside>
-            <dl>All Categories
-              <dt>
-                <a href="#">Weddings</a>
-                <a href="#">Home &amp; Living</a>
-                <a href="#">Accessories</a> <!--Finish typing sidebar content and restart npm run watch -->
-                <a href="#"></a>
-                <a href="#"></a>
-                <a href="#"></a>
-                <a href="#"></a>
-                <a href="#"></a>
-                <a href="#"></a>
-                <a href="#"></a>
-                <a href="#"></a>
-                <a href="#"></a>
-                <a href="#"></a>
-                <a href="#"></a>
-                <a href="#"></a>
-              </dt>
-            </dl>
+            <h5>All Categories</h5>
+            <ul class="sidebar">
+              <li>  <a href="#">Weddings</a></li>
+              <li>   <a href="#">Home &amp; Living</a></li>
+              <li>   <a href="#">Accessories</a> </li> <!--Finish typing sidebar content and restart npm run watch -->
+              <li>   <a href="#">Paper &amp; Party Supplies</a></li>
+              <li>   <a href="#">Art &amp; Collectibles</a></li>
+              <li>   <a href="#">Bags &amp; Purses</a></li>
+              <li>   <a href="#">Jewelry</a></li>
+              <li>   <a href="#">Craft Supplies &amp; Tools</a></li>
+              <li>   <a href="#">Clothing</a></li>
+              <li>   <a href="#">Bath &amp; Beauty</a></li>
+              <li>   <a href="#">Electronics &amp; Accessories</a></li>
+              <li>   <a href="#">Books, Movies &amp; Music</a></li>
+              <li>   <a href="#">Toys &amp; Games</a></li>
+              <li>   <a href="#">Shoes</a></li>
+              <li>   <a href="#">Pet Supplies</a></li>
+            </ul>
+
 
           </aside>
+          <div class="products-container col-md-3"></div>
+
+          </div>
 
         </div>
 
 
 
-
+<script id="items-images" type="text/x-handlebars-template">
+  <div class="product-listing" >
+    <img class="etsy-pics" src='{{Images.0.url_170x135}}'>
+    <div class "description">
+    <h4>{{title}}</h4>
+    <span class"seller">{{seller}}</span>
+    <span class"price">{{price}}</span>
+  </div>
+  </div>
+</script>
 
     <script src="js/bundle.js"></script>
 </body>

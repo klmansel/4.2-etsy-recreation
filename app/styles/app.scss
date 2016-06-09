@@ -8,7 +8,9 @@ $white: #fff;
 $numbergray: #434449;
 $teal: #64a6c3;
 $etsyorange: #d86300;
-
+$etsysidebar: #4f90b4;
+$sand: #f5f5f1;
+$bordergray: #e1e2de;
 
 // Bootstrap Variables
 $icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
@@ -74,7 +76,7 @@ img {
 .search-box {
   border: 1px solid $lightgray;
   box-shadow: 1px .5px 1px $darkgray;
-  color: $lightgray;
+  color: $bordergray;
   float: left;
   font-size: 16px;
   height: 36px;
@@ -101,5 +103,51 @@ img {
 }
 
 //Main Content
-
+.main-content {
+  background-color: $sand;
+  width: 100%;
+}
 //Sidebar
+aside {
+  display: inline-block;
+  float: left;
+  width: 300px;
+}
+
+.sidebar-heading {
+  background-color: $white;
+  border: .5px solid $bordergray;
+  display: inline-block;
+  float: left;
+  margin-left: 50px;
+  width: 300px;
+
+  h5 {
+    margin-left: 20px;
+  }
+}
+
+.sidebar {
+  a {
+    color: $etsysidebar;
+  }
+
+  li {
+    line-height: 25px;
+    list-style: none;
+    text-decoration: none;
+  }
+}
+//Product Listing
+.products-container {
+  display: inline-block;
+  float: left;
+}
+
+.product-listing {
+  display: inline-block;
+}
+
+.description {
+  width: 175px;
+}
