@@ -14,7 +14,7 @@ fetchJSONP(url, function(data) {
   productList.forEach(function(product){
     console.log(product);
     var renderTemplate = template(product);
-    $('.products-container').append(renderTemplate);
+    $('.products-box').append(renderTemplate);
   });
 
 

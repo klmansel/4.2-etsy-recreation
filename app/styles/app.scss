@@ -43,22 +43,25 @@ img {
   width: 200px;
 }
 
-.top-bar {
-  span {
-    background-color: $teal;
-    color: $white;
-    display: inline-block;
-    font-family: 'Arial','sans-serif';
-    font-size: 16px;
-    font-weight: bold;
-    height: 37px;
-    margin-top: 45px;
-    padding: 0 auto;
-    text-align: center;
-    width: 83px;
-  }
+.search-button {
+  background-color: $teal;
+  color: $white;
+  display: inline-block;
+  font-family: 'Arial','sans-serif';
+  font-size: 16px;
+  font-weight: bold;
+  height: 37px;
+  margin-top: 45px;
+  padding: 0 auto;
+  text-align: center;
+  width: 83px;
 
+  &:hover {
+    background-color: lighten($teal, 5%);
+  }
 }
+
+
 
 .site-nav {
   color: $teal;
@@ -105,22 +108,19 @@ img {
 //Main Content
 .main-content {
   background-color: $sand;
+  margin: 0;
   width: 100%;
 }
 //Sidebar
 aside {
-  display: inline-block;
-  float: left;
-  width: 300px;
-}
 
-.sidebar-heading {
+
   background-color: $white;
   border: .5px solid $bordergray;
   display: inline-block;
   float: left;
-  margin-left: 50px;
-  width: 300px;
+  margin-left: 20px;
+  width: 250px;
 
   h5 {
     margin-left: 20px;
@@ -141,7 +141,7 @@ aside {
 //Product Listing
 .products-container {
   display: inline-block;
-  float: left;
+  float: right;
 }
 
 .product-listing {
@@ -150,4 +150,9 @@ aside {
 
 .description {
   width: 175px;
+}
+
+.products-box {
+  display: inline-block;
+  width: 170px;
 }
