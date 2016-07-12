@@ -5781,7 +5781,7 @@ img {
   padding: 0 auto;
   width: 200px; }
 
-.top-bar span {
+.search-button {
   background-color: #64a6c3;
   color: #fff;
   display: inline-block;
@@ -5793,6 +5793,8 @@ img {
   padding: 0 auto;
   text-align: center;
   width: 83px; }
+  .search-button:hover {
+    background-color: #76b1ca; }
 
 .site-nav {
   color: #64a6c3;
@@ -5806,7 +5808,7 @@ img {
 .search-box {
   border: 1px solid #a9b0be;
   box-shadow: 1px 0.5px 1px #5a5b60;
-  color: #a9b0be;
+  color: #e1e2de;
   float: left;
   font-size: 16px;
   height: 36px;
@@ -5824,5 +5826,41 @@ img {
     border-bottom: 3px solid #d86300;
     color: #000;
     content: ''; }
+
+.main-content {
+  background-color: #f5f5f1;
+  margin: 0;
+  width: 100%; }
+
+aside {
+  background-color: #fff;
+  border: 0.5px solid #e1e2de;
+  display: inline-block;
+  float: left;
+  margin-left: 20px;
+  width: 250px; }
+  aside h5 {
+    margin-left: 20px; }
+
+.sidebar a {
+  color: #4f90b4; }
+.sidebar li {
+  line-height: 25px;
+  list-style: none;
+  text-decoration: none; }
+
+.products-container {
+  display: inline-block;
+  float: right; }
+
+.product-listing {
+  display: inline-block; }
+
+.description {
+  width: 175px; }
+
+.products-box {
+  display: inline-block;
+  width: 170px; }
 
 /*# sourceMappingURL=app.css.map */
